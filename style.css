@@ -1,0 +1,59 @@
+body{
+    background: rgb(1, 8, 8);
+}
+.container{
+    background: white;
+    width: 470px;
+    padding: 33px;
+    text-align: center;
+    margin-left: 35%;
+    margin-top: 36px;
+    position: relative;
+}
+.input{
+    width: 370px;
+
+}
+input{
+    width: 290px;
+    border: 2px solid rgb(13, 69, 69);
+    padding: 4px;
+    margin: 2px;
+    font-size: 22px;
+    outline: none;
+    border-radius: 10px 0 0 10px;
+}
+button{
+    width: 70px;
+    position: absolute;
+    right: 83px;
+    padding: 4px;
+    font-size: 22px;
+    background:  rgb(13, 69, 69);
+    color: #fff;
+    border-radius: 0 10px 10px 0;
+    margin-left: 0;
+    outline: none;
+    cursor: pointer;
+}
+.task{
+    margin: 10px;
+
+}
+.task ul{
+    position: relative;
+    background:  rgb(13, 69, 69);
+    color: #fff;
+    font-size: 20px;
+    text-align: left;
+    width: 400px;
+    margin: 10px;
+    padding: 10px;
+
+
+}
+.task ul i{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
